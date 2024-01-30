@@ -12,9 +12,9 @@ spec:
           percentage: 
             value: 100
       route:
-      - destination:
-          host: nginx-service
-          subset: all
+        - destination:
+            host: nginx-service
+            subset: all
 
 --- 
 
